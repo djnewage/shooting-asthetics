@@ -7,7 +7,11 @@
       "WebFetch(domain:www.summerfest.com)",
       "Bash(xcopy:*)",
       "Bash(powershell:*)",
-      "Bash(git add:*)"
+      "Bash(git add:*)",
+      "Bash(git gc:*)",
+      "Bash(git branch:*)",
+      "Bash(git verify-pack:*)",
+      "Bash(dir .gitobjectspack*.idx)"
     ],
     "deny": []
   }
