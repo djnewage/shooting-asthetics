@@ -1,5 +1,7 @@
 import React from "react";
 import { Star } from "lucide-react";
+import bucksLogo from "../assets/logos/bucks.svg";
+import brewersLogo from "../assets/logos/brewers.svg";
 export const TestimonialsSection = () => {
   const testimonials = [
     {
@@ -30,10 +32,10 @@ export const TestimonialsSection = () => {
       className="w-full bg-zinc-900 py-20 md:py-28 px-6">
       <div className="container mx-auto">
         <div className="max-w-3xl mx-auto text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-light tracking-tight text-white mb-4">
+          <h2 className="text-4xl md:text-5xl lg:text-6xl font-light tracking-tight text-white mb-6">
             What Our Clients Say
           </h2>
-          <p className="text-gray-400">
+          <p className="text-gray-400 text-lg md:text-xl">
             Don't take our word for it. Here's what our clients have to say
             about their experience working with us.
           </p>
@@ -46,31 +48,22 @@ export const TestimonialsSection = () => {
                   <Star key={i} size={16} fill="#fff" color="#fff" />
                 ))}
               </div>
-              <p className="text-gray-300 mb-6 italic">
+              <p className="text-gray-300 text-base md:text-lg mb-6 italic">
                 "{testimonial.content}"
               </p>
               <div>
-                <h4 className="font-light text-white">{testimonial.name}</h4>
-                <p className="text-gray-400 text-sm">{testimonial.position}</p>
+                <h4 className="text-lg md:text-xl font-light text-white">{testimonial.name}</h4>
+                <p className="text-gray-400 text-sm md:text-base">{testimonial.position}</p>
               </div>
             </div>
           ))}
         </div>
-        <div className="mt-16 flex flex-wrap justify-center gap-10 md:gap-16">
-          <div className="h-12 w-32 bg-zinc-800 border border-zinc-700 flex items-center justify-center">
-            <span className="text-gray-500 font-light">Client Logo</span>
+        <div className="mt-16 flex flex-wrap justify-center items-center gap-10 md:gap-16">
+          <div className="h-24 w-24 flex items-center justify-center">
+            <img src={bucksLogo} alt="Milwaukee Bucks" className="h-full w-full object-contain opacity-90 hover:opacity-100 transition-opacity" />
           </div>
-          <div className="h-12 w-32 bg-zinc-800 border border-zinc-700 flex items-center justify-center">
-            <span className="text-gray-500 font-light">Client Logo</span>
-          </div>
-          <div className="h-12 w-32 bg-zinc-800 border border-zinc-700 flex items-center justify-center">
-            <span className="text-gray-500 font-light">Client Logo</span>
-          </div>
-          <div className="h-12 w-32 bg-zinc-800 border border-zinc-700 flex items-center justify-center">
-            <span className="text-gray-500 font-light">Client Logo</span>
-          </div>
-          <div className="h-12 w-32 bg-zinc-800 border border-zinc-700 flex items-center justify-center">
-            <span className="text-gray-500 font-light">Client Logo</span>
+          <div className="h-24 w-24 flex items-center justify-center">
+            <img src={brewersLogo} alt="Milwaukee Brewers" className="h-full w-full object-contain opacity-90 hover:opacity-100 transition-opacity" />
           </div>
         </div>
       </div>

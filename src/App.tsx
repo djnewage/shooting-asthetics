@@ -2,6 +2,7 @@ import React from "react";
 import { Header } from "./components/Header";
 import { HeroSection } from "./components/HeroSection";
 import { ServicesSection } from "./components/ServicesSection";
+import { HowItWorksSection } from "./components/HowItWorksSection";
 import { AboutSection } from "./components/AboutSection";
 import { WorkSection } from "./components/WorkSection";
 import { TestimonialsSection } from "./components/TestimonialsSection";
@@ -14,8 +15,8 @@ export function App() {
       <main>
         <HeroSection />
         <ServicesSection />
-        <AboutSection />
         <WorkSection />
+        <AboutSection />
         <TestimonialsSection />
         <ContactSection />
       </main>

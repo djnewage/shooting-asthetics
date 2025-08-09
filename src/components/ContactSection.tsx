@@ -6,10 +6,10 @@ export const ContactSection = () => {
       <div className="container mx-auto">
         <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12">
           <div>
-            <h2 className="text-3xl md:text-4xl font-light tracking-tight text-white mb-6">
+            <h2 className="text-4xl md:text-5xl lg:text-6xl font-light tracking-tight text-white mb-8">
               Let's Start a Conversation
             </h2>
-            <p className="text-gray-400 mb-8">
+            <p className="text-gray-400 text-lg md:text-xl mb-8">
               Ready to elevate your brand? We'd love to hear from you. Reach out
               to discuss how we can help achieve your marketing goals.
             </p>
@@ -19,8 +19,8 @@ export const ContactSection = () => {
                   <MapPinIcon size={24} />
                 </div>
                 <div>
-                  <h3 className="font-light text-white mb-1">Visit Us</h3>
-                  <p className="text-gray-400">
+                  <h3 className="text-lg md:text-xl font-light text-white mb-2">Visit Us</h3>
+                  <p className="text-gray-400 text-base md:text-lg">
                     123 Design Street, Creative District, NY 10001
                   </p>
                 </div>
@@ -30,8 +30,8 @@ export const ContactSection = () => {
                   <PhoneIcon size={24} />
                 </div>
                 <div>
-                  <h3 className="font-light text-white mb-1">Call Us</h3>
-                  <p className="text-gray-400">+1 (555) 123-4567</p>
+                  <h3 className="text-lg md:text-xl font-light text-white mb-2">Call Us</h3>
+                  <p className="text-gray-400 text-base md:text-lg">+1 (555) 123-4567</p>
                 </div>
               </div>
               <div className="flex items-start">
@@ -39,8 +39,8 @@ export const ContactSection = () => {
                   <MailIcon size={24} />
                 </div>
                 <div>
-                  <h3 className="font-light text-white mb-1">Email Us</h3>
-                  <p className="text-gray-400">hello@apexagency.com</p>
+                  <h3 className="text-lg md:text-xl font-light text-white mb-2">Email Us</h3>
+                  <p className="text-gray-400 text-base md:text-lg">hello@apexagency.com</p>
                 </div>
               </div>
             </div>

@@ -22,3 +22,7 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+*.MOV
+*.mov
+*.MP4
+*.mp4

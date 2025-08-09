@@ -3,24 +3,29 @@ import { ArrowRightIcon } from "lucide-react";
 export const HeroSection = () => {
   return (
     <section className="relative w-full h-screen flex items-center justify-center bg-black overflow-hidden">
-      {/* Background image with overlay */}
-      <div
-        className="absolute inset-0 w-full h-full bg-cover bg-center"
-        style={{
-          backgroundImage:
-            "url('https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80')",
-          filter: "brightness(0.4)",
-        }}></div>
+      {/* Background video with overlay */}
+      <video
+        autoPlay
+        loop
+        muted
+        playsInline
+        className="absolute inset-0 w-full h-full object-cover"
+        style={{ filter: "brightness(0.4)" }}
+      >
+        <source src="/videos/Screen print.MOV" type="video/mp4" />
+        <source src="/videos/Screen print.MOV" type="video/mov" />
+        Your browser does not support the video tag.
+      </video>
       <div className="container mx-auto px-6 z-10 text-center">
         <div className="flex flex-col items-center">
-          <h1 className="text-white text-4xl md:text-5xl lg:text-6xl font-light tracking-tight mb-2">
-            Unleashing potential.
+          <h1 className="text-white text-5xl md:text-6xl lg:text-7xl font-light tracking-tight mb-8">
+            We get your customers to care about your story.
           </h1>
-          <h1 className="text-white text-4xl md:text-5xl lg:text-6xl font-light tracking-tight mb-8">
-            Creating impact.
-          </h1>
-          <p className="text-gray-300 text-sm md:text-base mb-12 max-w-xl">
-            We help brands dominate the digital world
+          <p className="text-gray-300 text-xl md:text-2xl mb-4 max-w-2xl">
+            Brand films, weekly social, event recaps.
+          </p>
+          <p className="text-gray-400 text-base md:text-lg mb-12">
+            (Milwaukee‑based. Passport ready.)
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-5">
             <a
