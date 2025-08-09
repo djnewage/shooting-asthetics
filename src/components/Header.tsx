@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { MenuIcon, XIcon } from "lucide-react";
 export const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);

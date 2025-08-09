@@ -1,4 +1,3 @@
-import React from "react";
 import { Star } from "lucide-react";
 import bucksLogo from "../assets/logos/bucks.svg";
 import brewersLogo from "../assets/logos/brewers.svg";

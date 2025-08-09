@@ -1,4 +1,3 @@
-import React from "react";
 export const Footer = () => {
   return (
     <footer className="w-full bg-zinc-900 py-12 px-6">

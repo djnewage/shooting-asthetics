@@ -1,4 +1,3 @@
-import React from "react";
 export const AboutSection = () => {
   return (
     <section id="about" className="w-full bg-zinc-900 py-20 md:py-28 px-6">

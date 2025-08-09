@@ -1,4 +1,3 @@
-import React from "react";
 import { Phone, FileText, Camera, Download } from "lucide-react";
 
 export const HowItWorksSection = () => {

@@ -1,4 +1,3 @@
-import React from "react";
 import { MapPinIcon, PhoneIcon, MailIcon, ArrowRightIcon } from "lucide-react";
 export const ContactSection = () => {
   return (

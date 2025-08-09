@@ -1,4 +1,3 @@
-import React from "react";
 import { Film, Camera, Calendar } from "lucide-react";
 export const ServicesSection = () => {
   const services = [
